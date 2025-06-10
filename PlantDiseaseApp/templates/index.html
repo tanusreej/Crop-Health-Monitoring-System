@@ -1,0 +1,57 @@
+{% load static %}
+<html>
+<head>
+<title>Plant Disease Identification</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<center><font size="4" color="yellow">An Artificial Intelligence and Cloud Based Collaborative Platform for Plant Disease Identification, Tracking and Forecasting for Farmers</font></center>
+		</div>
+		<div id="slogan">
+			
+		</div>
+	</div>
+	<div id="menu">
+		<ul><center>
+	  <li><a href="{% url 'index' %}">Home</a></li>
+      <li><a href="{% url 'Login' %}">Login</a></li>
+      <li><a href="{% url 'Register' %}">Register Here</a></li>
+			
+		</center></ul>
+		<br class="clearfix" />
+	</div>
+	<div id="splash">
+		<img class="pic" src="{% static 'images/investor.jpg' %}" width="870" height="230" alt="" />
+	</div>
+	<br/>
+	<p align="justify"><font size="3" style="font-family: Comic Sans MS" color='black'>
+		Abstract-Plant diseases are a major threat to farmers,
+consumers, environment and the global economy. In India alone,
+35% of field crops are lost to pathogens and pests causing losses
+to farmers. Indiscriminate use of pesticides is also a serious
+health concern as many are toxic and biomagnified. These
+adverse effects can be avoided by early disease detection, crop
+surveillance and targeted treatments. Most diseases are
+diagnosed by agricultural experts by examining external
+symptoms.</p><p align="justify"><font size="3" style="font-family: Comic Sans MS" color='black'> However, farmers have limited access to experts. Our
+project is the first integrated and collaborative platform for
+automated disease diagnosis, tracking and forecasting. Farmers
+can instantly and accurately identify diseases and get solutions
+with a mobile app by photographing affected plant parts. Realtime
+diagnosis is enabled using the latest Artificial Intelligence
+(AI) algorithms for Cloud-based image processing. The AI model
+continuously learns from user uploaded images and expert
+suggestions to enhance its accuracy.</p><p align="justify"><font size="3" style="font-family: Comic Sans MS" color='black'> Farmers can also interact
+with local experts through the platform. For preventive
+measures, disease density maps with spread forecasting are
+rendered from a Cloud based repository of geo-tagged images
+and micro-climactic factors. A web interface allows experts to
+perform disease analytics with geographical visualizations.
+
+</p>
+</body>
+</html>
